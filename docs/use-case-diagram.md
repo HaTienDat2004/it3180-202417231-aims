@@ -11,12 +11,18 @@ flowchart LR
         print["Xem chi tiết giỏ hàng"]
         total["Tính tổng tiền"]
         search["Tìm DVD theo tiêu đề"]
+        discount["Tính tiền sau giảm giá"]
+        sort["Sắp xếp theo tên hoặc giá"]
+        category["Tìm DVD theo thể loại"]
     end
     user --> add
     user --> remove
     user --> print
     user --> total
     user --> search
+    user --> discount
+    user --> sort
+    user --> category
 ```
 
 ## Yêu cầu hành vi
@@ -27,3 +33,6 @@ flowchart LR
 - Tổng tiền bằng tổng `cost` của các DVD; dữ liệu mẫu có tổng 63.89 $.
 - Tìm kiếm theo một phần tiêu đề; yêu cầu không phân biệt hoa thường.
 - Thay đổi yêu cầu hoặc báo lỗi được theo dõi bằng Issue và Pull Request.
+- Phần trăm giảm giá thuộc [0, 100]; tổng sau giảm bằng tổng nhân (1 - phần trăm / 100).
+- Sắp xếp giỏ tăng dần theo tiêu đề hoặc giá, không làm thay đổi tổng tiền.
+- Tìm thể loại bằng so khớp tên thể loại, không phân biệt hoa thường.
