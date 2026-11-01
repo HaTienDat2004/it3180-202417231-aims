@@ -4,8 +4,11 @@ Theo Keep a Changelog và Semantic Versioning.
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-11-02
+
 ### Added
 - Sắp xếp giỏ hàng theo tiêu đề hoặc giá.
+- Tìm DVD theo thể loại.
 
 ## [1.0.0] - 2026-11-02
 
