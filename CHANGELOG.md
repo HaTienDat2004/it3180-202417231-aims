@@ -4,6 +4,9 @@ Theo Keep a Changelog và Semantic Versioning.
 
 ## [Unreleased]
 
+### Added
+- Sắp xếp giỏ hàng theo tiêu đề hoặc giá.
+
 ## [1.0.0] - 2026-11-02
 
 ### Added
