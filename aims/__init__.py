@@ -1,1 +1,3 @@
-"""AIMS-mini package for IT3180 Git/GitHub practice."""
+"""AIMS-mini: ứng dụng thực hành quản lý cấu hình phần mềm."""
+
+__version__ = "1.0.0"
