@@ -10,6 +10,14 @@ Theo Keep a Changelog và Semantic Versioning.
 - Sắp xếp giỏ hàng theo tiêu đề hoặc giá.
 - Tìm DVD theo thể loại.
 
+### Fixed
+- Bao gồm bản sửa tìm kiếm tiêu đề từ dòng 1.0.1.
+
+## [1.0.1] - 2026-11-02
+
+### Fixed
+- Tìm theo tiêu đề không phân biệt hoa thường (#18).
+
 ## [1.0.0] - 2026-11-02
 
 ### Added
